@@ -3,5 +3,6 @@ class SayController < ApplicationController
   end
 
   def goodbye
+	@test = "yes i am fine" 
   end
 end
